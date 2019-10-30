@@ -1,0 +1,26 @@
+{
+  "name": "docker-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build app.js --no-source-maps --target node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtomchinsky/docker-hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/rtomchinsky/docker-hello-world/issues"
+  },
+  "homepage": "https://github.com/rtomchinsky/docker-hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
